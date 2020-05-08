@@ -25,9 +25,14 @@
                         </a>
                     </div>
                     <div class="list-group">
+
+
+
+
+
+
                         <?php $__currentLoopData = $folders; $__env->addLoop($__currentLoopData); foreach($__currentLoopData as $folder): $__env->incrementLoopIndices(); $loop = $__env->getLastLoop(); ?>
-                            <a href="<?php echo e(route('tasks.index', ['id' => $folder->id])); ?>"
-                               class="list-group-item <?php echo e($current_folder_id === $folder->id ? 'active' : ''); ?>">
+                            <a href="<?php echo e(route('tasks.index', ['id' => $folder->id])); ?>" class="list-group-item">
                                 <?php echo e($folder->title); ?>
 
                             </a>
