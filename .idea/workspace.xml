@@ -3,16 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="c2b8c446-574e-46b6-b815-32ff9983ff97" name="Default Changelist" comment="commit test">
       <change afterPath="$PROJECT_DIR$/.env" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/blog2.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bootstrap/cache/packages.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bootstrap/cache/services.php" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/node_modules/.bin/acorn" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/node_modules/.bin/ansi-html" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/node_modules/.bin/atob" afterDir="false" />
@@ -14744,18 +14734,6 @@
       <change afterPath="$PROJECT_DIR$/node_modules/yargs/node_modules/yargs-parser/package.json" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/node_modules/yargs/package.json" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/node_modules/yargs/yargs.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storage/framework/sessions/KeQfIM425fTQegRsnpd7EPpNTubshKHj53Ogp7eG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storage/framework/sessions/LVKXFSieIqlxrduj8wmxbyLNj3fZOjNdDyoHMRUC" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storage/framework/sessions/hLAfWasH3MsbrjP4LC6EHiL2sSh4k3f6JVeaK7iK" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storage/framework/sessions/iB37NF5yESniMVHSnUqGs2HIrHprJpvzpTOay5tB" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storage/framework/sessions/prud6bBVtzAugH8wgbgsTRLgUDa0EGSK7ppWIqXS" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storage/framework/views/1d0857f589ac1c3275dd358077de856561993292.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storage/framework/views/47b440571176302ecaa73b6283e06f9b0ef9c92b.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storage/framework/views/cb96e8b3fa259db5f7dac4ce7fc9fa6c9ec1b0ca.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storage/framework/views/d0cf0f5812aab5219f0f027fce5bd2e6cbf4818c.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storage/logs/laravel-2020-04-27.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storage/logs/laravel-2020-04-28.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storage/logs/laravel-2020-05-07.log" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/vendor/autoload.php" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/vendor/beyondcode/laravel-dump-server/CHANGELOG.md" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/vendor/beyondcode/laravel-dump-server/CONTRIBUTING.md" afterDir="false" />
@@ -21471,6 +21449,7 @@
       <change afterPath="$PROJECT_DIR$/vendor/webmozart/assert/composer.json" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/vendor/webmozart/assert/psalm.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/vendor/webmozart/assert/src/Assert.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -21500,7 +21479,7 @@
     </favorite-branches>
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="temp1" />
+        <entry key="$PROJECT_DIR$" value="master" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -21673,7 +21652,7 @@
       <workItem from="1588840915405" duration="168000" />
       <workItem from="1588841085979" duration="15000" />
       <workItem from="1588841117515" duration="69000" />
-      <workItem from="1588841219039" duration="2015000" />
+      <workItem from="1588841219039" duration="8656000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1588054319548</created>
@@ -21703,7 +21682,21 @@
       <option name="project" value="LOCAL" />
       <updated>1588836613530</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="commit test">
+      <created>1588915835396</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1588915835396</updated>
+    </task>
+    <task id="LOCAL-00006" summary="チャプター３終了の状態">
+      <created>1588921067718</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1588921067718</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -21720,7 +21713,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="master" />
+                        <option value="origin/master" />
                       </list>
                     </value>
                   </entry>
@@ -21739,6 +21732,11 @@
             <list>
               <RecentGroup>
                 <option name="FILTER_VALUES">
+                  <option value="origin/master" />
+                </option>
+              </RecentGroup>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
                   <option value="master" />
                 </option>
               </RecentGroup>
@@ -21753,6 +21751,7 @@
     <MESSAGE value="chapter.3 commit" />
     <MESSAGE value="chapter.3 コントローラ commit" />
     <MESSAGE value="commit test" />
-    <option name="LAST_COMMIT_MESSAGE" value="commit test" />
+    <MESSAGE value="チャプター３終了の状態" />
+    <option name="LAST_COMMIT_MESSAGE" value="チャプター３終了の状態" />
   </component>
 </project>
