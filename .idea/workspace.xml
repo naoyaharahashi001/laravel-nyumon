@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c2b8c446-574e-46b6-b815-32ff9983ff97" name="Default Changelist" comment="チュートリアル5　フォームを表示する コントローラー">
+    <list default="true" id="c2b8c446-574e-46b6-b815-32ff9983ff97" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/resources/views/tasks/create.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/TaskController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/TaskController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -217,7 +216,7 @@
       <workItem from="1589616633582" duration="9000" />
       <workItem from="1589862955212" duration="4288000" />
       <workItem from="1589870844134" duration="4944000" />
-      <workItem from="1590033133295" duration="993000" />
+      <workItem from="1590033133295" duration="1639000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1588054319548</created>
@@ -296,7 +295,14 @@
       <option name="project" value="LOCAL" />
       <updated>1589876200122</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="チュートリアル6　コントローラーにshowCreateForm メソッドを追加">
+      <created>1590036203201</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1590036203201</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -357,7 +363,8 @@
     <MESSAGE value="チュートリアル４　Task モデルにアクセサを追加する" />
     <MESSAGE value="チュートリアル5　フォームを表示する コントローラー" />
     <MESSAGE value="チュートリアル5　終了" />
-    <option name="LAST_COMMIT_MESSAGE" value="チュートリアル5　終了" />
+    <MESSAGE value="チュートリアル6　コントローラーにshowCreateForm メソッドを追加" />
+    <option name="LAST_COMMIT_MESSAGE" value="チュートリアル6　コントローラーにshowCreateForm メソッドを追加" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
 </project>
