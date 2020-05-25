@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c2b8c446-574e-46b6-b815-32ff9983ff97" name="Default Changelist" comment="チュートリアル6　タスク編集の「タイトル」「期限」をフォームに表示するためにedit.blade.php を作成。">
+    <list default="true" id="c2b8c446-574e-46b6-b815-32ff9983ff97" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -219,6 +219,7 @@
       <workItem from="1590073208221" duration="10000" />
       <workItem from="1590109264441" duration="7478000" />
       <workItem from="1590371061779" duration="2361000" />
+      <workItem from="1590373813988" duration="4899000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1588054319548</created>
@@ -381,7 +382,28 @@
       <option name="project" value="LOCAL" />
       <updated>1590132651236</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="チュートリアル6　テンプレートを部品化　scripts.blade.php を作成">
+      <created>1590374445831</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1590374445831</updated>
+    </task>
+    <task id="LOCAL-00025" summary="チュートリアル6　作成した共有部品を読み込むように edit.blade.php を編集">
+      <created>1590376920757</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1590376920757</updated>
+    </task>
+    <task id="LOCAL-00026" summary="チュートリアル6　バリデーションのためにEditTask.php を作成">
+      <created>1590380966598</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1590380966598</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -458,7 +480,10 @@
     <MESSAGE value="チュートリアル6　テストケースを記述する" />
     <MESSAGE value="チュートリアル6　フォーム表示のためにTaskController.php に showEditForm を追加" />
     <MESSAGE value="チュートリアル6　タスク編集の「タイトル」「期限」をフォームに表示するためにedit.blade.php を作成。" />
-    <option name="LAST_COMMIT_MESSAGE" value="チュートリアル6　タスク編集の「タイトル」「期限」をフォームに表示するためにedit.blade.php を作成。" />
+    <MESSAGE value="チュートリアル6　テンプレートを部品化　scripts.blade.php を作成" />
+    <MESSAGE value="チュートリアル6　作成した共有部品を読み込むように edit.blade.php を編集" />
+    <MESSAGE value="チュートリアル6　バリデーションのためにEditTask.php を作成" />
+    <option name="LAST_COMMIT_MESSAGE" value="チュートリアル6　バリデーションのためにEditTask.php を作成" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
 </project>
