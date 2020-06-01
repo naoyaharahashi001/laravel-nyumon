@@ -2,9 +2,9 @@
 
 namespace App\Http\Controllers;
 
-use App\Folder; //　★　この行を追記！
+use App\Folder;
+use App\Http\Requests\CreateFolder;
 use Illuminate\Http\Request;
-use App\Http\Requests\CreateFolder; // ★　追加
 
 class FolderController extends Controller
 {
@@ -26,5 +26,4 @@ class FolderController extends Controller
             'id' => $folder->id,
         ]);
     }
-
 }
