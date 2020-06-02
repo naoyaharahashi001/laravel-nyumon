@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c2b8c446-574e-46b6-b815-32ff9983ff97" name="Default Changelist" comment="">
+    <list default="true" id="c2b8c446-574e-46b6-b815-32ff9983ff97" name="Default Changelist" comment="チャプター7　タスクの編集で「状態」を変更できるようにしました。">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -161,7 +161,11 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="PHPUnit.vendor">
+  <component name="RunManager" selected="PHPUnit.TaskTest">
+    <configuration name="TaskTest" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <TestRunner class="Tests\Feature\TaskTest" file="$PROJECT_DIR$/tests/Feature/Tasktest.php" scope="Class" />
+      <method v="2" />
+    </configuration>
     <configuration name="phpunit.xml" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
       <TestRunner scope="XML" />
       <method v="2" />
@@ -175,6 +179,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="PHPUnit.TaskTest" />
         <item itemvalue="PHPUnit.vendor" />
         <item itemvalue="PHP Script.bkTaskController.php" />
         <item itemvalue="PHP Script.bkTaskController.php" />
@@ -219,7 +224,9 @@
       <workItem from="1590073208221" duration="10000" />
       <workItem from="1590109264441" duration="7478000" />
       <workItem from="1590371061779" duration="2361000" />
-      <workItem from="1590373813988" duration="4899000" />
+      <workItem from="1590373813988" duration="9647000" />
+      <workItem from="1590630492443" duration="11060000" />
+      <workItem from="1590978473554" duration="16098000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1588054319548</created>
@@ -403,7 +410,56 @@
       <option name="project" value="LOCAL" />
       <updated>1590380966598</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="チュートリアル6　バリデーションのためにEditTask.php を作成">
+      <created>1590382350142</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1590382350142</updated>
+    </task>
+    <task id="LOCAL-00028" summary="チュートリアル6　TaskController に edit メソッドを追加">
+      <created>1590384756978</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1590384756978</updated>
+    </task>
+    <task id="LOCAL-00029" summary="反映されていなかったタスクの状態「未着手」「着手中」「完了」を表示するようにする">
+      <created>1590647026123</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1590647026123</updated>
+    </task>
+    <task id="LOCAL-00030" summary="チャプター6　コメント内容を変更しました。">
+      <created>1590652006850</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1590652006850</updated>
+    </task>
+    <task id="LOCAL-00031" summary="チャプター7　タスクの編集で「状態」を変更できるようにしました。">
+      <created>1590989471567</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1590989471568</updated>
+    </task>
+    <task id="LOCAL-00032" summary="チャプター8　ユーザーとフォルダを紐づけるためにマイグレーションの機能を作成">
+      <created>1591062399919</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1591062399919</updated>
+    </task>
+    <task id="LOCAL-00033" summary="チャプター8 マイグレーションのファイル名を変更し、作り直しました。">
+      <created>1591079830577</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1591079830577</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -460,10 +516,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
-    <MESSAGE value="chapter.3 commit" />
-    <MESSAGE value="chapter.3 コントローラ commit" />
-    <MESSAGE value="commit test" />
-    <MESSAGE value="チャプター３終了の状態" />
     <MESSAGE value="git rm -r --cached . ファイル全体キャッシュ削除" />
     <MESSAGE value="チュートリアル４　Task モデルにアクセサを追加する" />
     <MESSAGE value="チュートリアル5　フォームを表示する コントローラー" />
@@ -483,7 +535,13 @@
     <MESSAGE value="チュートリアル6　テンプレートを部品化　scripts.blade.php を作成" />
     <MESSAGE value="チュートリアル6　作成した共有部品を読み込むように edit.blade.php を編集" />
     <MESSAGE value="チュートリアル6　バリデーションのためにEditTask.php を作成" />
-    <option name="LAST_COMMIT_MESSAGE" value="チュートリアル6　バリデーションのためにEditTask.php を作成" />
+    <MESSAGE value="チュートリアル6　TaskController に edit メソッドを追加" />
+    <MESSAGE value="反映されていなかったタスクの状態「未着手」「着手中」「完了」を表示するようにする" />
+    <MESSAGE value="チャプター6　コメント内容を変更しました。" />
+    <MESSAGE value="チャプター7　タスクの編集で「状態」を変更できるようにしました。" />
+    <MESSAGE value="チャプター8　ユーザーとフォルダを紐づけるためにマイグレーションの機能を作成" />
+    <MESSAGE value="チャプター8 マイグレーションのファイル名を変更し、作り直しました。" />
+    <option name="LAST_COMMIT_MESSAGE" value="チャプター8 マイグレーションのファイル名を変更し、作り直しました。" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
 </project>
